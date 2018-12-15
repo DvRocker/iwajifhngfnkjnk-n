@@ -319,7 +319,7 @@ client.on('message', message => {
         let helpEmbed = new Discord.RichEmbed()
         .setTitle('**أوامر الميوزك...**')
         .addField('3play', 'لتشغيل اغنية')
-        .addField('3join', 'دخول رومك الصوتي')
+        .addField('3vol', 'لتعلية الصوت')
  
         .addField('3skip', 'تخطي الأغنية')
         .addField('3pause', 'ايقاف الاغنية مؤقتا')
